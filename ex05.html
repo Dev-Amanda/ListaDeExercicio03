@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 05 da lista 03</title>
+</head>
+<body>
+    <!-- 5) Elaborar um programa que efetue a apresentação do valor da conversão em dólar de um valor lido em real. O programa deve solicitar o valor da cotação do dólar e também a quantidade de reais disponível com o usuário, para que seja apresentado o valor em moeda americana.  -->
+    
+    <script>
+    var cota = prompt("Digite o valor atual do dólar: ");
+    var real = prompt("Sua quantidade de reais disponível: ");
+
+    result = Number(real / cota);
+
+    alert(`O valor convertido em Dólar é: $${result.toFixed(2)}.`)
+    </script>
+</body>
+</html>
